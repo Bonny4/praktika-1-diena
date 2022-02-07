@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(12, 50, 51);
+}
+
+/* container */
+
+.all {
+    margin: 3em auto;
+    padding: 3em;
+    background-color: white;
+    width: 700px;
+    border-radius: 50px;
+}
+
+/* intro */
+
+h1 {
+    margin: 1em;
+}
+
+p,
+ul {
+    padding-bottom: 1em;
+    list-style-type: none;
+}
+
+li::before {
+    content: "+";
+    margin-right: 1em;
+    background-color: rgb(12, 50, 51);
+    color: white;
+    padding: 0.2em;
+    border-radius: 20px;
+
+}
+
+li {
+    padding: 0.2em;
+}
+
+/* table */
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+table,
+tr,
+td {
+    border: 1px solid rgb(12, 50, 51);
+    border-collapse: collapse;
+}
+
+td,
+th {
+    width: 20%;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #cee9e9;
+}
+
+tr:nth-child(odd) {
+    background-color: #87bebe;
+}
+
+tr:first-child {
+    background-color: rgb(12, 50, 51);
+    color: white;
+    border-bottom: 4px solid rgb(10, 31, 31);
+}
+
+/* tr:first-child th:first-child {
+    border-radius: 10px;
+} */
+
+
+/* registration */
+
+form {
+    margin-left: 4em;
+    width: 250px;
+    padding: 1em;
+}
+
+input {
+    margin: 0.2em;
+}
+
+#fname,
+#email {
+    width: 100px;
+}
+
+fieldset,
+.intro {
+    padding-left: 2em;
+}
+
+#submit {
+    float: right;
+    background-color: #cee9e9;
+    font-weight: bold;
+}
+
+#submit:hover {
+    background-color: rgb(12, 50, 51);
+    color: white;
+    border-radius: 10px;
+}
