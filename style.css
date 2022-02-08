@@ -115,3 +115,44 @@ fieldset,
     color: white;
     border-radius: 10px;
 }
+
+fieldset>div {
+    position: relative;
+    margin-bottom: 1em;
+}
+
+fieldset>div input,
+select {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 50%;
+}
+
+.member>div {
+    display: inline-block;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    margin-left: 50%;
+}
+
+.member>div span {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 57%;
+}
+
+.member>div:last-child input {
+    margin-left: 70%;
+}
+
+.member>div:last-child span {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 77%;
+}

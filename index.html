@@ -60,24 +60,38 @@
         <form action="#">
             <fieldset>
                 <legend><i>Register your interest</i></legend>
+                <div>
+                    <label for="fname">Your name:</label>
+                    <input type="text" id="fname" name="fname" placeholder="Zuikis">
+                </div>
 
-                <label for="fname">Your name:</label>
-                <input type="text" id="fname" name="fname" placeholder="Zuikis"><br>
-                <label for="email">Your email:</label>
-                <input type="email" id="email" name="email" placeholder="puikis@morka.com"><br>
-                <label for="location">Your closest center:</label>
-                <select name="location" id="location">
-                    <option value="New York">New York</option>
-                    <option value="London">London</option>
-                    <option value="Paris">Paris</option>
-                    <option value="Malaga">Malaga</option>
-                </select>
-                <br>
-                <label for="member">Are you a member?</label>
-                <input type="radio" id="yes" name="member" value="yes">
-                <label for="yes">Yes</label>
-                <input type="radio" id="no" name="member" value="no">
-                <label for="no">No</label><br>
+                <div>
+                    <label for="email">Your email:</label>
+                    <input type="email" id="email" name="email" placeholder="puikis@morka.com">
+                </div>
+
+                <div>
+                    <label for="location">Your closest center:</label>
+                    <select name="location" id="location">
+                        <option value="New York">New York</option>
+                        <option value="London">London</option>
+                        <option value="Paris">Paris</option>
+                        <option value="Malaga">Malaga</option>
+                    </select>
+                </div>
+
+                <div class="member">
+                    <label for="member">Are you a member?</label>
+                    <div>
+                        <input type="radio" id="yes" name="member" value="yes">
+                        <span>Yes</span>
+                    </div>
+                    <div>
+                        <input type="radio" id="no" name="member" value="no">
+                    <span>No</span>
+                    </div>
+                    
+                </div>
 
             </fieldset>
             <input type="submit" id="submit" value="Register">
